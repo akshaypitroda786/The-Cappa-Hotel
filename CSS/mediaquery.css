@@ -1,0 +1,810 @@
+@media screen and (max-width:1024px) {
+    header {
+        padding-block: 15px;
+    }
+
+
+    .middel-caption-container>.small-title {
+        font-size: 12px;
+    }
+    .middel-caption-container>.main-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+        letter-spacing: 10px;
+    }
+    .middel-caption {
+        width: 100%;
+        padding: 0;
+    }
+
+    .middel-caption-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .booking-container {
+        width: 100%;
+    }
+
+
+    .date-selection-item>input {
+        width: 160px;
+    }
+    .select-adult {
+        width: auto;
+    }
+    .check-now-btn>input {
+        width: auto;
+    }
+
+    .about-section-container {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .rooms-suites-container {
+        width: 100%;
+    }
+    .extra-services-container {
+        width: 100%;
+    }
+
+    .slider-2>.owl-dots {
+        transform: translateX(36px);
+    }
+    .video-container {
+        width: 100%;
+    }
+    .video-section {
+        background-attachment: scroll !important;
+    }
+
+    .services-container {
+        width: 100%;
+    }
+
+    .services-wrapper-item {
+        width: 33.33%;
+    }
+    .testimonial-section {
+        background-attachment: scroll !important;
+    }
+    .testimonial-container {
+        max-width: 100%;
+    }
+    .testimonial-wrapper {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hotel-gallary-container {
+        max-width: 100%;
+    }
+    .hotel-gallary-image {
+        width: 50%;
+    }
+
+    .hotel-gallary-item>.order {
+        order: 2;
+    }
+    .hotel-gallary-details {
+        width: 50%;
+        order: 1;
+    }
+    .hotel-blog-container {
+        max-width: 100%;
+    }
+    .hotel-blog-wrapper {
+        flex-direction: column;
+    }
+    .booking-form-section {
+        background-attachment: scroll;
+    }
+    .booking-form-container {
+        max-width: 100%;
+    }
+    .booking-form-details {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .booking-form-item {
+        width: 50%;
+        margin-left: 0;
+        padding: 35px 20px;
+        margin-bottom: 90px;
+    }
+    .booking-form-item>.booking-form {
+        padding: 0;
+    }
+    .booking-form-item>.booking-form>.date-selection>.date-selection-item>input {
+        margin-bottom: 0;
+    }
+    .date-selection-bundle {
+        flex-direction: column;
+    }
+    .date-selection-bundle>.date-selection>.adult-selection-item>.select-adult {
+        width: 100%;
+    }
+    .hotel-client-container {
+        width: 100%;
+    }
+    .hotel-client-wrapper {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .footer-bottom-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width:991px) {
+    header {
+        padding-block: 15px;
+    }
+
+    .header-container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    nav.header-navigation.mobile-view-active {
+        visibility: visible;
+        opacity: 1;
+        height: 360px;
+    }
+
+    nav.header-navigation {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #fff;
+        text-align: left;
+        padding: 15px 30px 30px 15px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+
+    .header-navigation>.nav-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-view-btn {
+        display: block;
+        font-size: 25px;
+        padding: 0.25rem 0.75rem;
+        margin-right: 15px;
+        color: #aa8453;
+    }
+
+    .header-navigation>.nav-ul>.nav-li {
+        width: 100%;
+    }
+
+    .header-navigation>.nav-ul>.nav-li>.nav-link {
+        color: #222;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    .reservation-container {
+        display: none;
+    }
+
+    .middel-caption-container>.small-title {
+        font-size: 12px;
+    }
+    .middel-caption-container>.main-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+        letter-spacing: 10px;
+    }
+    .middel-caption {
+        width: 100%;
+        padding: 0;
+    }
+
+    .middel-caption-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .booking-container {
+        width: 100%;
+    }
+
+
+    .date-selection-item>input {
+        width: 160px;
+    }
+    .select-adult {
+        width: auto;
+    }
+    .check-now-btn>input {
+        width: auto;
+    }
+
+    .about-section-container {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .rooms-suites-container {
+        width: 100%;
+    }
+    .extra-services-container {
+        width: 100%;
+    }
+    .extra-services-description {
+        width: 50%;
+    }
+    .extra-services-imgaes {
+        width: 50%;
+        padding-inline: 15px;
+    }
+    .slider-2>.owl-dots {
+        transform: translateX(36px);
+    }
+    .video-container {
+        width: 100%;
+    }
+    .video-section {
+        background-attachment: scroll !important;
+    }
+
+    .services-container {
+        width: 100%;
+    }
+
+    .services-wrapper-item {
+        width: 33.33%;
+    }
+    .testimonial-section {
+        background-attachment: scroll !important;
+    }
+    .testimonial-container {
+        max-width: 100%;
+    }
+    .testimonial-wrapper {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hotel-gallary-container {
+        max-width: 100%;
+    }
+    .hotel-gallary-image {
+        width: 50%;
+    }
+
+    .hotel-gallary-item>.order {
+        order: 2;
+    }
+    .hotel-gallary-details {
+        width: 50%;
+        order: 1;
+    }
+    .hotel-blog-container {
+        max-width: 100%;
+    }
+    .hotel-blog-wrapper {
+        flex-direction: column;
+    }
+    .slider-4>.owl-dots {
+        transform: translateX(83px);
+    }
+    .booking-form-section {
+        background-attachment: scroll;
+    }
+    .booking-form-container {
+        max-width: 100%;
+    }
+    .booking-form-details {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .booking-form-item {
+        width: 50%;
+        margin-left: 0;
+        padding: 35px 20px;
+        margin-bottom: 90px;
+    }
+    .booking-form-item>.booking-form {
+        padding: 0;
+    }
+    .booking-form-item>.booking-form>.date-selection>.date-selection-item>input {
+        margin-bottom: 0;
+    }
+    .date-selection-bundle {
+        flex-direction: column;
+    }
+    .date-selection-bundle>.date-selection>.adult-selection-item>.select-adult {
+        width: 100%;
+    }
+    .hotel-client-container {
+        width: 100%;
+    }
+    .hotel-client-wrapper {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .footer-container {
+        width: 100%;
+    }
+
+    .footer-bottom-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    header {
+        padding-block: 15px;
+    }
+
+    .header-container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    nav.header-navigation.mobile-view-active {
+        visibility: visible;
+        opacity: 1;
+        height: 360px;
+    }
+
+    nav.header-navigation {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #fff;
+        text-align: left;
+        padding: 15px 30px 30px 15px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+
+    .header-navigation>.nav-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-view-btn {
+        display: block;
+        font-size: 25px;
+        padding: 0.25rem 0.75rem;
+        margin-right: 15px;
+        color: #aa8453;
+    }
+
+    .header-navigation>.nav-ul>.nav-li {
+        width: 100%;
+    }
+
+    .header-navigation>.nav-ul>.nav-li>.nav-link {
+        color: #222;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    .reservation-container {
+        display: none;
+    }
+
+    .middel-caption-container>.small-title {
+        font-size: 12px;
+    }
+    .middel-caption-container>.main-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+        letter-spacing: 10px;
+    }
+    .middel-caption {
+        width: 100%;
+        padding: 0;
+    }
+
+    .middel-caption-container {
+        width: 100%;
+        margin: 0;
+    }
+    .booking-container {
+        width: 100%;
+    }
+    .booking-wrapper {
+        position: relative;
+        background-color: #f8f5f0;
+        padding: 30px 0;
+    }
+    .booking-form {
+        flex-direction: column;
+        padding-inline: 15px;
+    }
+    .date-selection {
+        margin-bottom: 15px;
+    }
+    .date-selection-item>input {
+        width: 100%;
+    }
+    .calander {
+        right: 3%;
+    }
+    .select-adult {
+        width: 100%;
+    }
+    .check-now-btn>input {
+        width: 100%;
+    }
+    .about-section-container {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .rooms-suites-container {
+        width: 100%;
+    }
+    .extra-services-container {
+        width: 100%;
+    }
+    .extra-services-description {
+        width: 50%;
+    }
+    .extra-services-imgaes {
+        width: 50%;
+        padding-inline: 15px;
+    }
+    .slider-2>.owl-dots {
+        transform: translateX(36px);
+    }
+    .video-container {
+        width: 100%;
+    }
+    .video-section {
+        background-attachment: scroll !important;
+    }
+
+    .services-container {
+        width: 100%;
+    }
+
+    .services-wrapper-item {
+        width: 33.33%;
+    }
+    .testimonial-section {
+        background-attachment: scroll !important;
+    }
+    .testimonial-container {
+        max-width: 100%;
+    }
+    .testimonial-wrapper {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hotel-gallary-container {
+        max-width: 100%;
+    }
+    .hotel-gallary-image {
+        width: 50%;
+    }
+    .hotel-gallary-details {
+        width: 50%;
+        order: 1;
+    }
+    .hotel-gallary-item>.order {
+        order: 2;
+    }
+    .hotel-blog-container {
+        max-width: 100%;
+    }
+    .hotel-blog-wrapper {
+        flex-direction: column;
+    }
+    .slider-4>.owl-dots {
+        transform: translateX(83px);
+    }
+    .booking-form-section {
+        background-attachment: scroll;
+    }
+    .booking-form-container {
+        max-width: 100%;
+    }
+    .booking-form-details {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .booking-form-item {
+        width: 50%;
+        margin-left: 0;
+        padding: 35px 20px;
+        margin-bottom: 90px;
+    }
+    .booking-form-item>.booking-form {
+        padding: 0;
+    }
+    .booking-form-item>.booking-form>.date-selection>.date-selection-item>input {
+        margin-bottom: 0;
+    }
+    .date-selection-bundle {
+        flex-direction: column;
+    }
+    .date-selection-bundle>.date-selection>.adult-selection-item>.select-adult {
+        width: 100%;
+    }
+    .hotel-client-container {
+        width: 100%;
+    }
+    .hotel-client-wrapper {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .footer-container {
+        width: 100%;
+    }
+
+    .footer-bottom-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width:575px) {
+    header {
+        padding-block: 15px;
+    }
+
+    .header-container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    nav.header-navigation.mobile-view-active {
+        visibility: visible;
+        opacity: 1;
+        height: 360px;
+    }
+
+    nav.header-navigation {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #fff;
+        text-align: left;
+        padding: 15px 30px 30px 15px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+
+    .header-navigation>.nav-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-view-btn {
+        display: block;
+        font-size: 25px;
+        padding: 0.25rem 0.75rem;
+        margin-right: 15px;
+        color: #aa8453;
+    }
+
+    .header-navigation>.nav-ul>.nav-li {
+        width: 100%;
+    }
+
+    .header-navigation>.nav-ul>.nav-li>.nav-link {
+        color: #222;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    .reservation-container {
+        display: none;
+    }
+
+    .middel-caption-container>.small-title {
+        font-size: 12px;
+    }
+    .middel-caption-container>.main-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+        letter-spacing: 10px;
+    }
+    .middel-caption {
+        width: 100%;
+        padding: 0;
+    }
+
+    .middel-caption-container {
+        width: 100%;
+        margin: 0;
+    }
+    .booking-container {
+        width: 100%;
+    }
+    .booking-wrapper {
+        position: relative;
+        background-color: #f8f5f0;
+        padding: 30px 0;
+    }
+    .booking-form {
+        flex-direction: column;
+        padding-inline: 15px;
+    }
+    .date-selection {
+        margin-bottom: 15px;
+    }
+    .date-selection-item>input {
+        width: 100%;
+    }
+    .select-adult {
+        width: 100%;
+    }
+    .check-now-btn>input {
+        width: 100%;
+    }
+    .about-section-container {
+        width: 100%;
+    }
+    .about-section-wrapper {
+        flex-direction: column;
+    }
+    .about-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .rooms-suites-container {
+        width: 100%;
+    }
+    .rooms-suites-wrapper {
+        flex-direction: column;
+    }
+    .rooms-suites-item {
+        width: 100%;
+    }
+    .rooms-suites-item.w-50 {
+        width: 100% !important;
+    }
+    .extra-services-container {
+        width: 100%;
+    }
+    .extra-services-wrapper {
+        flex-direction: column;
+    }
+    .extra-services-description {
+        width: 100%;
+    }
+    .extra-services-imgaes {
+        width: 100%;
+        padding-inline: 15px;
+    }
+    .slider-2>.owl-dots {
+        transform: translateX(36px);
+    }
+    .video-container {
+        width: 100%;
+    }
+    .video-section {
+        background-attachment: scroll !important;
+    }
+
+    .services-container {
+        width: 100%;
+    }
+    .Services-wrapper {
+        flex-direction: column;
+    }
+    .services-wrapper-item {
+        width: 100%;
+    }
+    .testimonial-section {
+        background-attachment: scroll !important;
+    }
+    .testimonial-container {
+        max-width: 100%;
+    }
+    .testimonial-wrapper {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hotel-gallary-container {
+        max-width: 100%;
+    }
+    .hotel-gallary-item {
+        flex-direction: column;
+    }
+    .hotel-gallary-image {
+        width: 100%;
+    }
+    .hotel-gallary-details {
+        width: 100%;
+        order: 1;
+    }
+    .hotel-blog-container {
+        max-width: 100%;
+    }
+    .hotel-blog-wrapper {
+        flex-direction: column;
+    }
+    .slider-4>.owl-dots {
+        transform: translateX(83px);
+    }
+    .booking-form-section {
+        background-attachment: scroll;
+    }
+    .booking-form-container {
+        max-width: 100%;
+    }
+    .booking-form-wrapper {
+        flex-direction: column;
+    }
+    .booking-form-details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .booking-form-item {
+        width: 100%;
+        margin-left: 0;
+        padding: 35px 20px;
+        margin-bottom: 90px;
+    }
+    .booking-form-item>.booking-form {
+        padding: 0;
+    }
+    .booking-form-item>.booking-form>.date-selection>.date-selection-item>input {
+        margin-bottom: 0;
+    }
+    .date-selection-bundle {
+        flex-direction: column;
+    }
+    .date-selection-bundle>.date-selection>.adult-selection-item>.select-adult {
+        width: 100%;
+    }
+    .hotel-client-container {
+        width: 100%;
+    }
+    .hotel-client-wrapper {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .footer-container {
+        width: 100%;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-wrapper-item {
+        width: 100%;
+    }
+    .footer-wrapper>.margin-left {
+        margin-left: 0;
+        width: 100%;
+    }
+    .footer-bottom-container {
+        width: 100%;
+    }
+}
